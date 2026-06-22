@@ -11,7 +11,8 @@ created: 2026-06-22
 внутрь конкретного патогена ([[streptococcus-mutans]]), и нуклеаза режет
 **собственный геном бактерии** — летальный разрыв. Бьёт по виду, не по площади.
 
-> Диаграмма: [Arch/crispr-antimicrobials.svg](Arch/crispr-antimicrobials.svg)
+![Диаграмма CRISPR-фаги против S. mutans](Arch/crispr-antimicrobials.svg)
+*Фаг распознаёт S. mutans → впрыск CRISPR → разрез генома → гибнет только патоген, союзники целы.*
 
 ## Почему это про экологию, а не про зуб
 
