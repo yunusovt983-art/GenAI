@@ -23,6 +23,8 @@ GitHub, без внешних зависимостей). Каждая привя
 | [damage-rate-integral.svg](damage-rate-integral.svg) | [[rate-limiter-aging]] | старение как интеграл; наклон = dDamage/dt |
 | [longevity-by-design-map.svg](longevity-by-design-map.svg) | [[longevity-by-design]] | карта четырёх архитектурных сущностей |
 | [longevity-stack.svg](longevity-stack.svg) | [[longevity-by-design]] | трёхуровневый стек антиэйдж-технологий |
+| [lens-aging-vs-shark.svg](lens-aging-vs-shark.svg) | [[lens-crystallin-longevity]] | 4 фактора старения хрусталика и их смягчение у акулы |
+| [preserve-vs-replace.svg](preserve-vs-replace.svg) | [[continuous-regeneration]] | две тактики: сохранять (хрусталик) vs заменять (зубы) |
 
 Обзор подходов — [[dental-regeneration]]. Доменная модель — [[dentition-domain]].
 Паттерн долголетия — [[longevity-by-design]].
