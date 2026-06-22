@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 304" role="img">
+<title>Стек антиэйдж-технологий из трёх уровней</title>
+<desc>Трёхуровневый стек: нижний уровень Slow Damage Architecture как у акулы, средний Self-Monitoring биосенсоры, верхний Repair System нанороботы и клеточная терапия. Фундамент снижает нагрузку на верхние уровни.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.t{font-size:14px;font-weight:500}.ts{font-size:12px;font-weight:400}.ttl{font-size:16px;font-weight:500}
+</style>
+<rect x="0" y="0" width="680" height="304" fill="#FFFFFF"/>
+<text class="ttl" x="340" y="28" text-anchor="middle" fill="#2C2C2A">Стек антиэйдж-технологий (3 уровня)</text>
+
+<rect x="110" y="58" width="460" height="58" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+<text class="t" x="340" y="82" text-anchor="middle" fill="#26215C">Уровень 3 · Repair System</text>
+<text class="ts" x="340" y="100" text-anchor="middle" fill="#534AB7">нанороботы, клеточная терапия</text>
+
+<rect x="110" y="128" width="460" height="58" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="340" y="152" text-anchor="middle" fill="#042C53">Уровень 2 · Self-Monitoring</text>
+<text class="ts" x="340" y="170" text-anchor="middle" fill="#185FA5">биосенсоры</text>
+
+<rect x="110" y="198" width="460" height="58" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text class="t" x="340" y="222" text-anchor="middle" fill="#04342C">Уровень 1 · Slow Damage Architecture</text>
+<text class="ts" x="340" y="240" text-anchor="middle" fill="#0F6E56">как у гренландской акулы — фундамент</text>
+
+<text class="ts" x="340" y="282" text-anchor="middle" fill="#5F5E5A">Фундамент (ур. 1) резко снижает нагрузку на ур. 2–3</text>
+</svg>

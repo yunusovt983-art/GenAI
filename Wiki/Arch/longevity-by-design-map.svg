@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 388" role="img">
+<title>Longevity by Design — четыре архитектурные сущности</title>
+<desc>Центральный паттерн Longevity by Design и четыре архитектурные сущности вокруг него: Rate Limiter Aging, Protein Longevity Engineering, Zero-Maintenance Tissue, Damage Firewall.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.t{font-size:14px;font-weight:500}.ts{font-size:12px;font-weight:400}.ttl{font-size:16px;font-weight:500}
+</style>
+<rect x="0" y="0" width="680" height="388" fill="#FFFFFF"/>
+<text class="ttl" x="340" y="28" text-anchor="middle" fill="#26215C">Longevity by Design — 4 архитектурные сущности</text>
+
+<line x1="300" y1="186" x2="222" y2="142" stroke="#5F5E5A" stroke-width="1.5"/>
+<line x1="380" y1="186" x2="458" y2="142" stroke="#5F5E5A" stroke-width="1.5"/>
+<line x1="300" y1="234" x2="222" y2="278" stroke="#5F5E5A" stroke-width="1.5"/>
+<line x1="380" y1="234" x2="458" y2="278" stroke="#5F5E5A" stroke-width="1.5"/>
+
+<rect x="40" y="78" width="250" height="66" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="165" y="106" text-anchor="middle" fill="#042C53">#1 Rate Limiter Aging</text>
+<text class="ts" x="165" y="125" text-anchor="middle" fill="#185FA5">снижает dDamage/dt</text>
+
+<rect x="390" y="78" width="250" height="66" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="515" y="106" text-anchor="middle" fill="#042C53">#2 Protein Longevity Eng.</text>
+<text class="ts" x="515" y="125" text-anchor="middle" fill="#185FA5">белки на 300–500 лет</text>
+
+<rect x="40" y="276" width="250" height="66" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="165" y="304" text-anchor="middle" fill="#042C53">#3 Zero-Maintenance Tissue</text>
+<text class="ts" x="165" y="323" text-anchor="middle" fill="#185FA5">ткань почти не деградирует</text>
+
+<rect x="390" y="276" width="250" height="66" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="515" y="304" text-anchor="middle" fill="#042C53">#4 Damage Firewall</text>
+<text class="ts" x="515" y="323" text-anchor="middle" fill="#185FA5">error prevention, не recovery</text>
+
+<rect x="250" y="178" width="180" height="64" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+<text class="t" x="340" y="206" text-anchor="middle" fill="#26215C">Longevity by Design</text>
+<text class="ts" x="340" y="224" text-anchor="middle" fill="#534AB7">архитектурный паттерн</text>
+</svg>

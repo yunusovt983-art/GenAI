@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 360" role="img">
+<title>Старение как интеграл повреждений</title>
+<desc>График: накопленные повреждения по времени. Крутая линия для обычного организма быстро растёт, пологая линия для гренландской акулы остаётся низкой веками. Площадь под кривой — интеграл повреждений, наклон — производная dDamage/dt.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.t{font-size:14px;font-weight:500}.ts{font-size:12px;font-weight:400}.ttl{font-size:16px;font-weight:500}
+</style>
+<rect x="0" y="0" width="680" height="360" fill="#FFFFFF"/>
+<text class="ttl" x="340" y="28" text-anchor="middle" fill="#2C2C2A">Старение = интеграл повреждений</text>
+
+<polygon points="90,300 615,248 615,300" fill="#E1F5EE"/>
+<line x1="90" y1="60" x2="90" y2="300" stroke="#5F5E5A" stroke-width="1.5"/>
+<line x1="90" y1="300" x2="625" y2="300" stroke="#5F5E5A" stroke-width="1.5"/>
+<text class="ts" x="86" y="56" text-anchor="end" fill="#5F5E5A">Damage</text>
+<text class="ts" x="355" y="328" text-anchor="middle" fill="#5F5E5A">время / возраст →</text>
+
+<line x1="90" y1="300" x2="330" y2="85" stroke="#D85A30" stroke-width="2"/>
+<line x1="90" y1="300" x2="615" y2="248" stroke="#1D9E75" stroke-width="2"/>
+
+<text class="t" x="334" y="84" text-anchor="start" fill="#993C1D">обычный организм</text>
+<text class="t" x="470" y="240" text-anchor="middle" fill="#0F6E56">гренландская акула</text>
+
+<text class="t" x="360" y="120" text-anchor="start" fill="#2C2C2A">Aging = ∫ Damage(t) dt</text>
+<text class="ts" x="150" y="150" text-anchor="start" fill="#993C1D">наклон = dDamage/dt</text>
+</svg>

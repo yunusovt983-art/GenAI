@@ -19,8 +19,13 @@ GitHub, без внешних зависимостей). Каждая привя
 | [human-teeth-ddd.svg](human-teeth-ddd.svg) | [[human-teeth-ddd]] | DDD-агрегат зубов человека |
 | [arctic-shark-jaw.svg](arctic-shark-jaw.svg) | [[arctic-shark-teeth-ddd]] | зубной конвейер акулы (polyphyodont) |
 | [arctic-shark-teeth-ddd.svg](arctic-shark-teeth-ddd.svg) | [[arctic-shark-teeth-ddd]] | DDD-агрегат зубов акулы |
+| [aging-repair-vs-prevention.svg](aging-repair-vs-prevention.svg) | [[longevity-by-design]] | две стратегии: ремонт vs замедление повреждений |
+| [damage-rate-integral.svg](damage-rate-integral.svg) | [[rate-limiter-aging]] | старение как интеграл; наклон = dDamage/dt |
+| [longevity-by-design-map.svg](longevity-by-design-map.svg) | [[longevity-by-design]] | карта четырёх архитектурных сущностей |
+| [longevity-stack.svg](longevity-stack.svg) | [[longevity-by-design]] | трёхуровневый стек антиэйдж-технологий |
 
 Обзор подходов — [[dental-regeneration]]. Доменная модель — [[dentition-domain]].
+Паттерн долголетия — [[longevity-by-design]].
 
 ## Соглашение
 
