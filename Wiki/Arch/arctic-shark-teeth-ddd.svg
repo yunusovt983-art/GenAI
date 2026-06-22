@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 434" role="img">
+<title>Arctic Shark Dentition — DDD-агрегат</title>
+<desc>Тактическая DDD-модель зубов арктической акулы: aggregate root Jaw, entity ToothRow и Tooth, value objects включая форму зуба и плакоидную чешую, domain events конвейера и policy Polyphyodont.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.t{font-size:14px;font-weight:500}.ts{font-size:12px;font-weight:400}.ttl{font-size:16px;font-weight:500}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="680" height="434" fill="#FFFFFF"/>
+<text class="ttl" x="340" y="28" text-anchor="middle" fill="#26215C">Arctic Shark Dentition — DDD-агрегат</text>
+
+<rect x="40" y="40" width="14" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7"/><text class="ts" x="60" y="51" fill="#5F5E5A">Aggregate</text>
+<rect x="150" y="40" width="14" height="14" rx="3" fill="#E6F1FB" stroke="#185FA5"/><text class="ts" x="170" y="51" fill="#5F5E5A">Entity</text>
+<rect x="240" y="40" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56"/><text class="ts" x="260" y="51" fill="#5F5E5A">Value Object</text>
+<rect x="372" y="40" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#BA7517"/><text class="ts" x="392" y="51" fill="#5F5E5A">Event</text>
+<rect x="462" y="40" width="14" height="14" rx="3" fill="#FAECE7" stroke="#993C1D"/><text class="ts" x="482" y="51" fill="#5F5E5A">Policy</text>
+
+<line x1="250" y1="106" x2="280" y2="106" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="345" y1="132" x2="345" y2="168" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="255" y1="196" x2="242" y2="196" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="435" y1="196" x2="468" y2="196" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="ts" x="452" y="190" text-anchor="middle" fill="#5F5E5A">succession</text>
+<line x1="345" y1="222" x2="345" y2="298" stroke="#5F5E5A" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<text class="ts" x="352" y="266" fill="#854F0B">emits</text>
+
+<rect x="40" y="80" width="210" height="52" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="1.5"/>
+<text class="t" x="145" y="104" text-anchor="middle" fill="#4A1B0C">Polyphyodont Policy</text>
+<text class="ts" x="145" y="121" text-anchor="middle" fill="#993C1D">непрерывное замещение</text>
+
+<rect x="280" y="80" width="150" height="52" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+<text class="t" x="355" y="104" text-anchor="middle" fill="#26215C">Jaw</text>
+<text class="ts" x="355" y="121" text-anchor="middle" fill="#534AB7">Aggregate Root</text>
+
+<rect x="255" y="170" width="180" height="52" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="345" y="194" text-anchor="middle" fill="#042C53">ToothRow ×многие</text>
+<text class="ts" x="345" y="211" text-anchor="middle" fill="#185FA5">Entity — упорядочены</text>
+
+<rect x="40" y="170" width="202" height="110" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text class="t" x="52" y="192" fill="#04342C">Value Objects</text>
+<text class="ts" x="52" y="214" fill="#0F6E56">• ToothShape: grip / blade</text>
+<text class="ts" x="52" y="234" fill="#0F6E56">• Position (file, ряд №)</text>
+<text class="ts" x="52" y="254" fill="#0F6E56">• Enameloid</text>
+<text class="ts" x="52" y="274" fill="#0F6E56">• = плакоидная чешуя</text>
+
+<rect x="468" y="170" width="172" height="52" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+<text class="t" x="554" y="194" text-anchor="middle" fill="#042C53">Tooth</text>
+<text class="ts" x="554" y="211" text-anchor="middle" fill="#185FA5">Entity — в файле</text>
+
+<rect x="225" y="300" width="240" height="110" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.5"/>
+<text class="t" x="237" y="322" fill="#412402">Domain Events</text>
+<text class="ts" x="237" y="344" fill="#854F0B">• ToothFormed</text>
+<text class="ts" x="237" y="364" fill="#854F0B">• ToothMigratedForward</text>
+<text class="ts" x="237" y="384" fill="#854F0B">• ToothShed</text>
+<text class="ts" x="237" y="404" fill="#854F0B">• RowAdvanced</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 350" role="img">
+<title>Челюсть арктической акулы: зубной конвейер</title>
+<desc>Боковой вид: ряд зубов на хрящевой челюсти как конвейер — новый зуб формируется внутри, мигрирует вперёд к функциональной позиции и сбрасывается изношенным; режущий край всегда укомплектован.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.t{font-size:14px;font-weight:500}.ts{font-size:12px;font-weight:400}.ttl{font-size:16px;font-weight:500}
+</style>
+<defs><marker id="arrowt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="680" height="350" fill="#FFFFFF"/>
+<text class="ttl" x="340" y="30" text-anchor="middle" fill="#04342C">Челюсть арктической акулы: зубной конвейер</text>
+
+<line x1="150" y1="120" x2="540" y2="120" stroke="#0F6E56" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrowt)"/>
+<text class="ts" x="345" y="110" text-anchor="middle" fill="#0F6E56">миграция: новый зуб → функция → сброс</text>
+
+<rect x="110" y="235" width="470" height="36" rx="18" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1.5"/>
+
+<path d="M150,236 L180,236 L153,201 Z" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<path d="M210,236 L250,236 L219,181 Z" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<path d="M290,236 L334,236 L307,167 Z" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1.5"/>
+<path d="M380,236 L430,236 L405,156 Z" fill="#5DCAA5" stroke="#0F6E56" stroke-width="1.5"/>
+<path d="M470,236 L516,236 L508,168 Z" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+<text class="ts" x="165" y="292" text-anchor="middle" fill="#5F5E5A">новый зуб</text>
+<text class="ts" x="312" y="292" text-anchor="middle" fill="#5F5E5A">зреющие замены</text>
+<text class="ts" x="405" y="292" text-anchor="middle" fill="#04342C">функция</text>
+<text class="ts" x="493" y="292" text-anchor="middle" fill="#5F5E5A">сброс</text>
+
+<text class="t" x="340" y="324" text-anchor="middle" fill="#04342C">Polyphyodont — режущий край всегда укомплектован</text>
+</svg>

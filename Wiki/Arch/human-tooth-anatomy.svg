@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 340" role="img">
+<title>Зуб человека: слои как строительные блоки DDD</title>
+<desc>Поперечный разрез зуба: эмаль (value object), дентин (entity), пульпа (entity с сосудами и нервом), корень в кости — граница агрегата.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.t{font-size:14px;font-weight:500}.ts{font-size:12px;font-weight:400}.ttl{font-size:16px;font-weight:500}
+</style>
+<rect x="0" y="0" width="680" height="340" fill="#FFFFFF"/>
+<text class="ttl" x="340" y="30" text-anchor="middle" fill="#412402">Зуб человека: слои = блоки DDD</text>
+
+<rect x="205" y="166" width="190" height="130" fill="#F1EFE8"/>
+<line x1="205" y1="166" x2="395" y2="166" stroke="#B4B2A9" stroke-width="2"/>
+
+<path d="M250,158 C250,92 271,60 300,60 C329,60 350,92 350,158 L344,168 L256,168 Z" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<path d="M262,158 C262,100 277,74 300,74 C323,74 338,100 338,158 L330,285 Q300,312 270,285 Z" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.5"/>
+<path d="M291,150 C291,112 296,98 300,98 C304,98 309,112 309,150 L306,255 Q300,268 294,255 Z" fill="#FBEAF0" stroke="#993556" stroke-width="1.5"/>
+
+<line x1="345" y1="100" x2="418" y2="92" stroke="#888780" stroke-width="0.75" stroke-dasharray="3 3"/>
+<text class="t" x="422" y="89" fill="#04342C">Эмаль — Value Object</text>
+<text class="ts" x="422" y="106" fill="#0F6E56">96% апатит, сама не чинится</text>
+
+<line x1="332" y1="140" x2="418" y2="150" stroke="#888780" stroke-width="0.75" stroke-dasharray="3 3"/>
+<text class="t" x="422" y="148" fill="#412402">Дентин — Entity</text>
+<text class="ts" x="422" y="165" fill="#854F0B">живая минерализованная основа</text>
+
+<line x1="309" y1="200" x2="418" y2="206" stroke="#888780" stroke-width="0.75" stroke-dasharray="3 3"/>
+<text class="t" x="422" y="204" fill="#4B1528">Пульпа — Entity</text>
+<text class="ts" x="422" y="221" fill="#993556">сосуды и нерв, есть identity</text>
+
+<line x1="338" y1="250" x2="418" y2="262" stroke="#888780" stroke-width="0.75" stroke-dasharray="3 3"/>
+<text class="t" x="422" y="260" fill="#2C2C2A">Корень в кости</text>
+<text class="ts" x="422" y="277" fill="#5F5E5A">граница Aggregate</text>
+
+<line x1="256" y1="166" x2="150" y2="166" stroke="#888780" stroke-width="0.75" stroke-dasharray="3 3"/>
+<text class="ts" x="146" y="170" text-anchor="end" fill="#5F5E5A">линия десны</text>
+</svg>
